@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01. Core">
+      <UniqueIdentifier>{15b0c45d-0de8-45fa-b549-d4e90e31ca0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Stage">
+      <UniqueIdentifier>{d01a86de-89ff-4a6b-93bf-d81eb9f9ae7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Shape">
+      <UniqueIdentifier>{974231bb-131d-45d3-ae96-1ac6d4224219}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StageManager.cpp">
+      <Filter>02. Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>01. Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>02. Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>03. Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeManager.cpp">
+      <Filter>03. Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeGun.cpp">
+      <Filter>03. Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeLine.cpp">
+      <Filter>03. Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeRGun.cpp">
+      <Filter>03. Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeS.cpp">
+      <Filter>03. Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeT.cpp">
+      <Filter>03. Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeZ.cpp">
+      <Filter>03. Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>03. Shape</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="value.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StageManager.h">
+      <Filter>02. Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>01. Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>02. Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>03. Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeManager.h">
+      <Filter>03. Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="flags.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeGun.h">
+      <Filter>03. Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeLine.h">
+      <Filter>03. Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeRGun.h">
+      <Filter>03. Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeS.h">
+      <Filter>03. Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeT.h">
+      <Filter>03. Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeZ.h">
+      <Filter>03. Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>03. Shape</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
